@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Articles{% endblock %}
+
+{% block body %}
+<div>
+<ul>
+  <li><a href="/logout">Déconnexion</a></li>
+  <li><a class="active" href="/main">Home</a></li>
+  
+</ul>
+</div>
+
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    Aucun Articles pour le moment !
+    
+</div>
+{% endblock %}
